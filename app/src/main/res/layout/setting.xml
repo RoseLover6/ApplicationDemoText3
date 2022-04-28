@@ -3,13 +3,13 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <fragment
         android:name="com.example.applicationdemotext3.SettingFragment"
         android:id="@+id/setting"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
+
     <FrameLayout
         android:layout_width="0px"
         android:layout_height="match_parent"

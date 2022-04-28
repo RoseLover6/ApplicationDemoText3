@@ -31,7 +31,8 @@ public class MyToolAcyivity extends AppCompatActivity {
                     intent.putExtras(bundle);
                     startActivity(intent);
                 }else {
-                    Toast.makeText(MyToolAcyivity.this,"您选择了第"+(position+1)+"项",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MyToolAcyivity.this,"您选择了第"+(position+1)+"项",
+                            Toast.LENGTH_SHORT).show();
                 }
             }
         });
